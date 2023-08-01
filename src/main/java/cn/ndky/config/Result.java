@@ -18,6 +18,7 @@ public class Result<T> {
         result.setCode(Constants.CODE_200);
         result.setMsg("成功");
         result.setData(null);
+
         return result;
     }
     public static <T> Result<T> success(T data) {

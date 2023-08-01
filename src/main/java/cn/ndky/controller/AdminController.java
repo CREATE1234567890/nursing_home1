@@ -24,6 +24,7 @@ public class AdminController{
     @Autowired
     private AdminService adminService;
 
+
     //查找所有
     @GetMapping("/all")
     public Result<?> findAll() {
