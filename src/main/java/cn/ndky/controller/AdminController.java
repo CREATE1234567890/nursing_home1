@@ -2,13 +2,11 @@ package cn.ndky.controller;
 
 
 import cn.ndky.config.Result;
-import cn.ndky.mapper.AdminMapper;
 import cn.ndky.service.AdminService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import org.springframework.stereotype.Controller;
 
 /**
  * <p>
